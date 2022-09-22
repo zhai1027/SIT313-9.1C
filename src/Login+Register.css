@@ -1,0 +1,63 @@
+/*
+Interafece UI design style from:
+Reference: https://blog.csdn.net/weixin_43916694/article/details/103171603
+*/
+.interface{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    text-align: center;
+}
+
+.interface p{
+    color: wheat
+}
+
+.interface input[type='text'], .interface input[type='password']{
+    background: none;
+    border-radius: 24px;
+    border: 2px solid blueviolet;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    transition: 0.25s;
+}
+
+.interface input[type='text']:focus, .interface input[type='password']:focus{
+    width: 280px;
+    border-color:deepskyblue;
+}
+
+.interface button{
+    background: none;
+    border-radius: 24px;
+    border: 2px solid greenyellow;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    transition: 0.25s;
+}
+
+.interface button:hover{
+    background-color:cyan;
+}
+
+.interface button:active{
+    background-color:red;
+    top: 1px;
+}
+
+.interface h5{
+    color: yellow;
+    font-size: large
+}

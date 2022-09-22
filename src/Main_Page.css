@@ -1,0 +1,43 @@
+.Greeting{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 200px;
+  height: 150px;
+}
+
+.Background_Color{
+  background-color: grey;
+  height: 120px;
+}
+
+.FONT_STYLE1{
+  margin-top: 10px;
+  color: aqua;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.INPUT_STYLE1{
+  margin-left: 15px;
+  height: 40px;
+  width: 1300px;
+  margin-bottom: -10px;
+}
+
+.BUTTON_STYLE1{
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: white;
+  background: black;
+}
+
+.BUTTON_STYLE1:hover {
+  background-color:#5cbf2a;
+}
+.BUTTON_STYLE1:active {
+  position:relative;
+  top:1px;
+}
+
