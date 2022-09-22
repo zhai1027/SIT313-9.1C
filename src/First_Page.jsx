@@ -8,7 +8,6 @@ function Greeting(){
         <h1>Welcome to 7.1P</h1>
         <h2>From Ziyan Zhai</h2>
         <Link to = '/login'></Link>
-        </a>
     </div>
     )
 }
