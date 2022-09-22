@@ -14,11 +14,11 @@ function App() {
           <div>    
             <Routes>  
               <Route exact path='' element={<First_Page/>}></Route>  
-              <Route exact path='/home' element={<Main/>}></Route>   
-              <Route exact path='/login' element={<Login/>}></Route> 
-              <Route exact path='/register' element={<Register/>}></Route> 
-              <Route exact path='/HomePage' element={<HomePage/>}></Route>
-              <Route exact path='/profile' element={<Profile/>}></Route>
+              <Route exact path='home' element={<Main/>}></Route>   
+              <Route exact path='login' element={<Login/>}></Route> 
+              <Route exact path='register' element={<Register/>}></Route> 
+              <Route exact path='HomePage' element={<HomePage/>}></Route>
+              <Route exact path='profile' element={<Profile/>}></Route>
             </Routes>  
           </div>  
        </Router>  
