@@ -11,6 +11,7 @@ const Login = (props) =>{
             const {user} = await signInWithGooglePopup();
             const userDocRef = await createdUserDocFromAuth(user)
             window.location.href='/HomePage'
+            //navigate('/Profile')
         }
         catch(error){
             console.log('F12 console: Google sign in fail', error.message)
