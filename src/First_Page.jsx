@@ -7,7 +7,9 @@ function Greeting(){
     <div className='Greeting' style={{marginTop: 200}}>
         <h1>Welcome to 7.1P</h1>
         <h2>From Ziyan Zhai</h2>
-        <Link to = '/login'></Link>
+        <Link to = '/login'>
+            Log in    
+        </Link>
     </div>
     )
 }
